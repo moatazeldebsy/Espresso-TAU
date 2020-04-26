@@ -1,9 +1,7 @@
 name: Nightly CI
-# on push we will trigger our code
 on:
   schedule:
     - cron: '0 10 * * *' # run at 2 AM UTC
-
 
 jobs:
   build:
