@@ -30,6 +30,26 @@ The course is divided into the 10 different chapters and each chapter has an ass
 
 You need to checkout the branch depending on the chapter you are on.
 
+## Resources
+- Test apps on Android
+https://developer.android.com/training/testing/ui-testing/espresso-testing
+- AndroidX Overview
+https://developer.android.com/jetpack/androidx
+- Android Jetpack
+https://developer.android.com/jetpack
+
+- Android Studio
+https://developer.android.com/studio#downloads
+- Gradle 
+https://docs.gradle.org/current/userguide/installation.html
+- Java JDK
+https://www.oracle.com/java/technologies/javase-downloads.html
+- Android Emulator
+https://developer.android.com/studio/run/emulator#requirements
+
+- Developer options for Android
+https://developer.android.com/studio/debug/dev-options
+
 
 ### References Projects
  - https://github.com/android/testing-samples
@@ -37,3 +57,4 @@ You need to checkout the branch depending on the chapter you are on.
  - https://github.com/stoichoandreev/bdd
 
  - https://github.com/rutgurk/mailordercoffee-workshop
+ 
