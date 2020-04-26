@@ -5,7 +5,7 @@ This repo contains the course material for the Test Automation University Course
 # Pre-requisite 
 
 In order to follow this course, you will need 
- * macOS High Sierra or Mojave 
+ * macOS High Sierra or Mojave | Windows 10 
  * Android Studio 3.6+
  * Android Emulator
  * Github Account
