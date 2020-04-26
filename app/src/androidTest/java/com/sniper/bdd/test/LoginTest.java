@@ -30,7 +30,7 @@ public class LoginTest {
     @Before
     public void setup() {
         eyes = new Eyes();
-        eyes.setApiKey("tYKhJE1i7SnPtUU79899sJwSAy931rSNZd77KxptMM1VI110");
+        eyes.setApiKey("YOU API KEY");
     }
 
     @Test
