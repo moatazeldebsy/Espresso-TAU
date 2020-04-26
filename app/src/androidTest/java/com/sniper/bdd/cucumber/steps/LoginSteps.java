@@ -26,7 +26,7 @@ public class LoginSteps {
     @Before
     public void setup() {
         eyes = new Eyes();
-        eyes.setApiKey("tYKhJE1i7SnPtUU79899sJwSAy931rSNZd77KxptMM1VI110");
+        eyes.setApiKey("YOUR API KEY");
     }
     @After
     public void tearDown() {
