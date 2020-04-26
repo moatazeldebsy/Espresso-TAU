@@ -107,6 +107,16 @@ https://github.com/square/spoon
 - Screenshot tests for Android
 https://github.com/facebook/screenshot-tests-for-android
 
+- Cucumber Andorid
+https://github.com/cucumber/cucumber-android
+
+- Gradle CLI
+https://docs.gradle.org/current/userguide/command_line_interface.html
+
+- Gradle Wrapper
+https://docs.gradle.org/current/userguide/gradle_wrapper.html
+
+
 
 - Cheat Sheet
 https://developer.android.com/training/testing/espresso/cheat-sheet
