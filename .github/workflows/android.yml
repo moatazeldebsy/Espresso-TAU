@@ -1,4 +1,4 @@
-name: Appium CI
+name: Android CI
 # on push we will trigger our code
 on: [push]
 
@@ -23,4 +23,4 @@ jobs:
         target: ${{ matrix.target }}
         arch: x86_64
         profile: Nexus 6
-        script: ./gradlew test --info # running our test with info to check the results
+        script: ./gradlew connectedDebugAndroidTest -Pcucumber -Ptags="@e2e" --info # running our test with info to check the results
