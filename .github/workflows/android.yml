@@ -18,4 +18,4 @@ jobs:
           target: default
           arch: x86_64
           profile: Nexus 6
-          script: ./gradlew connectedDebugAndroidTest -Pcucumber -Ptags="@e2e" --info # running our test with info to check the results
+          script: ./gradlew test --info # running our test with info to check the results
