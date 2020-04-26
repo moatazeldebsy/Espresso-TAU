@@ -1,0 +1,14 @@
+com.example.android.testing.espresso.IdlingResourceSample
+dimen activity_horizontal_margin
+dimen header_margin
+drawable ic_launcher
+id changeTextBt
+id editTextUserInput
+id textToBeChanged
+layout activity_main
+string app_name
+string change_text
+string hello_world
+string type_something
+string waiting_msg
+style AppTheme

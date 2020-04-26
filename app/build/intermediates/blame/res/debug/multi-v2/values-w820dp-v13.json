@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/res/values-w820dp/dimens.xml",
+                    "from": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "964",
+                        "endColumns": "57",
+                        "endOffsets": "1017"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        }
+    ]
+}

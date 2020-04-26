@@ -1,0 +1,64 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:18:1-33:12
+INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:18:1-33:12
+INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:18:1-33:12
+INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:18:1-33:12
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.3.0-alpha04] /Users/m.eldebsy/.gradle/caches/transforms-1/files-1.1/espresso-idling-resource-3.3.0-alpha04.aar/4d3b1f8ad0c0d3a192bebcc450813ebd/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:18:1-33:12
+INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:18:1-33:12
+INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:18:1-33:12
+	package
+		ADDED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:19:5-72
+		INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:18:1-33:12
+		INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:18:1-33:12
+		INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:18:11-69
+application
+ADDED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:20:5-31:19
+	android:label
+		ADDED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:21:9-41
+	android:icon
+		ADDED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:20:18-54
+	android:theme
+		ADDED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:22:9-40
+activity#com.example.android.testing.espresso.IdlingResourceSample.MainActivity
+ADDED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:23:9-30:20
+	android:label
+		ADDED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:25:13-45
+	android:name
+		ADDED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:24:13-98
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:26:13-29:29
+action#android.intent.action.MAIN
+ADDED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml:28:27-74
+uses-sdk
+INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml
+INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.3.0-alpha04] /Users/m.eldebsy/.gradle/caches/transforms-1/files-1.1/espresso-idling-resource-3.3.0-alpha04.aar/4d3b1f8ad0c0d3a192bebcc450813ebd/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.3.0-alpha04] /Users/m.eldebsy/.gradle/caches/transforms-1/files-1.1/espresso-idling-resource-3.3.0-alpha04.aar/4d3b1f8ad0c0d3a192bebcc450813ebd/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml
+INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/AndroidManifest.xml

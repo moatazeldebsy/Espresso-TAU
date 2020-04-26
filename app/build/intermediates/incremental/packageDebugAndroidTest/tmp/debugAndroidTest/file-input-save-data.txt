@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Apr 21 22:10:35 CEST 2020
+0.baseType=DIRECTORY
+0.base=/Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/build/intermediates/transforms/dexMerger/androidTest/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1

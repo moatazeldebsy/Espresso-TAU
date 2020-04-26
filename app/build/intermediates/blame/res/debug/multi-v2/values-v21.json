@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/res/values-v21/styles.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "689",
+                        "endColumns": "60",
+                        "endOffsets": "745"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "60",
+                        "endOffsets": "111"
+                    }
+                }
+            ]
+        }
+    ]
+}

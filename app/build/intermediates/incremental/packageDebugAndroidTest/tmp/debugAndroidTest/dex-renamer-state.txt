@@ -1,0 +1,4 @@
+#Tue Apr 21 23:36:53 CEST 2020
+base.0=/Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/build/intermediates/transforms/dexMerger/androidTest/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

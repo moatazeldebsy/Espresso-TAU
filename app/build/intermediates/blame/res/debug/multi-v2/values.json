@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "17,19,18,20,21",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "689,811,755,880,939",
+                        "endColumns": "65,68,55,58,60",
+                        "endOffsets": "750,875,806,934,995"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "158,224,293,349,408",
+                        "endColumns": "65,68,55,58,60",
+                        "endOffsets": "219,288,344,403,464"
+                    }
+                },
+                {
+                    "source": "/Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "18,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "761,819",
+                        "endColumns": "57,44",
+                        "endOffsets": "814,859"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,44",
+                        "endOffsets": "108,153"
+                    }
+                },
+                {
+                    "source": "/Users/m.eldebsy/Desktop/TAU Espresso Android/Projects/Chapter 6/IdlingResourceSample/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "726",
+                        "endColumns": "57",
+                        "endOffsets": "779"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "469",
+                        "endColumns": "57",
+                        "endOffsets": "522"
+                    }
+                }
+            ]
+        }
+    ]
+}

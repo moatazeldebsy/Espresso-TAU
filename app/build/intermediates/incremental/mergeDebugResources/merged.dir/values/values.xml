@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="header_margin">32dp</dimen>
+    <string name="app_name">Basic Idling Resource sample</string>
+    <string name="change_text">Change text taking some time</string>
+    <string name="hello_world">Hello Espresso!</string>
+    <string name="type_something">type something…</string>
+    <string name="waiting_msg">Waiting for message…</string>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+</resources>
