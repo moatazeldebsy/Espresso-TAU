@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.sniper.bdd"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 2
+        versionName "1.1"
+        testInstrumentationRunner 'com.sniper.bdd.cucumber.runner.CucumberTestRunner'
+        //testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        debug {
+            buildConfigField 'String', 'TEST_TAGS', '"' + getTestTags() + '"'
+            buildConfigField 'String', 'TEST_SCENARIO', '"' + getTestScenario() + '"'
+        }
+
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+def getTestTags() {
+    project.getProperties().get('tags') ?: ''
+}
+
+def getTestScenario() {
+    project.getProperties().get('scenario') ?: ''
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    testImplementation 'junit:junit:4.13'
+
+    // Espresso dependencies
+    testImplementation 'androidx.test:core:1.3.0-alpha05'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2-alpha05'
+    androidTestImplementation 'androidx.test:runner:1.3.0-alpha05'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0-alpha05'
+    testImplementation 'androidx.test.ext:truth:1.3.0-alpha05'
+    androidTestImplementation 'androidx.test:rules:1.3.0-alpha05'
+
+    // BDD and Cucumber dependencies
+
+    androidTestImplementation 'info.cukes:cucumber-android:1.2.5'
+    androidTestImplementation 'info.cukes:cucumber-picocontainer:1.2.5'
+}
