@@ -78,6 +78,8 @@ https://developer.android.com/training/testing/espresso/recipes
 - Espresso Web 
 https://developer.android.com/training/testing/espresso/web
 
+- Cheat Sheet
+https://developer.android.com/training/testing/espresso/cheat-sheet
 
 - Idling Resources
 https://developer.android.com/training/testing/espresso/idling-resource
@@ -116,10 +118,20 @@ https://docs.gradle.org/current/userguide/command_line_interface.html
 - Gradle Wrapper
 https://docs.gradle.org/current/userguide/gradle_wrapper.html
 
+- Applitools and Espresso
+https://applitools.com/tutorials/espresso.html
 
+- Adding an existing project to GitHub using the command line
+https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
 
-- Cheat Sheet
-https://developer.android.com/training/testing/espresso/cheat-sheet
+- GitHub Actions Documentation
+https://help.github.com/en/actions
+
+- Android Emulator for GitHub Actions
+https://github.com/marketplace/actions/android-emulator-runner
+
+- Firebase Test Lab
+https://firebase.google.com/docs/test-lab/android/overview
 
 
 
