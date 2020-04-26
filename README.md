@@ -50,7 +50,7 @@ https://developer.android.com/studio/run/emulator#requirements
 - Developer options for Android
 https://developer.android.com/studio/debug/dev-options
 
-Espresso Test Recorder
+- Espresso Test Recorder
 https://developer.android.com/studio/test/espresso-test-recorder
 
 - UIAutomatorViewer
@@ -62,6 +62,31 @@ https://developer.android.com/studio/debug/layout-inspector
 - Espresso Basic
 https://developer.android.com/training/testing/espresso/basics
 
+- Intents
+https://developer.android.com/training/testing/espresso/intents
+
+- Lists
+https://developer.android.com/training/testing/espresso/lists
+
+- Toast Message
+https://developer.android.com/guide/topics/ui/notifiers/toasts.html
+
+- Drawer Actions
+https://developer.android.com/reference/android/support/test/espresso/contrib/DrawerActions
+https://developer.android.com/training/testing/espresso/recipes
+
+- Espresso Web 
+https://developer.android.com/training/testing/espresso/web
+
+
+- Idling Resources
+https://developer.android.com/training/testing/espresso/idling-resource
+
+
+
+- Cheat Sheet
+https://developer.android.com/training/testing/espresso/cheat-sheet
+
 
 
 ### References Projects
@@ -70,4 +95,6 @@ https://developer.android.com/training/testing/espresso/basics
  - https://github.com/stoichoandreev/bdd
 
  - https://github.com/rutgurk/mailordercoffee-workshop
+ 
+ 
  
