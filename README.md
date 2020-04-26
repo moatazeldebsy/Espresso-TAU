@@ -82,6 +82,30 @@ https://developer.android.com/training/testing/espresso/web
 - Idling Resources
 https://developer.android.com/training/testing/espresso/idling-resource
 
+- AndroidJUnitRunner
+https://developer.android.com/training/testing/junit-runner
+https://developer.android.com/reference/android/support/test/runner/AndroidJUnitRunner
+
+- JUnit4 rules with AndroidX Test
+https://developer.android.com/training/testing/junit-rules
+
+- Android Orchestrator
+https://developer.android.com/training/testing/junit-runner#using-android-test-orchestrator
+
+- Page Object Pattern
+https://martinfowler.com/bliki/PageObject.html
+
+- Barista
+https://github.com/AdevintaSpain/Barista
+
+- Test Butler
+https://github.com/linkedin/test-butler
+
+- Spoon
+https://github.com/square/spoon
+
+- Screenshot tests for Android
+https://github.com/facebook/screenshot-tests-for-android
 
 
 - Cheat Sheet
