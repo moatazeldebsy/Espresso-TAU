@@ -2,6 +2,8 @@
 
 This repo contains the course material for the Test Automation University Course `Introduction to Android Automation with Espresso` 
 
+![Image description](image.png)
+
 # Pre-requisite 
 
 In order to follow this course, you will need 
