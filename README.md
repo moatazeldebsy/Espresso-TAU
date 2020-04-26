@@ -1,3 +1,8 @@
+
+# Espresso-TAU (Test Automation University) Course 
+
+This repo contains the course material for the Test Automation University Course `Introduction to Android Automation with Espresso` 
+
 ## RUN BDD UI TESTS
 
 ### To run all End-to-End tests written with Cucumber and BDD execute : 
