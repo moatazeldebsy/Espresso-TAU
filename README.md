@@ -27,3 +27,11 @@ The course is divided into the 10 different chapters and each chapter has an ass
 * `Chapter 10` Branch -- Continuous Integration with GitHub Actions
 
 You need to checkout the branch depending on the chapter you are on.
+
+
+### References Projects
+ - https://github.com/android/testing-samples
+
+ - https://github.com/stoichoandreev/bdd
+
+ - https://github.com/rutgurk/mailordercoffee-workshop
