@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- STANDARD THEME COLORS -->
+    <color name="primaryColor">#80cbc4</color>
+    <color name="primaryLightColor">#b2fef7</color>
+    <color name="primaryDarkColor">#4f9a94</color>
+    <color name="secondaryColor">#8d6e63</color>
+    <color name="secondaryLightColor">#be9c91</color>
+    <color name="secondaryDarkColor">#5f4339</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#ffffff</color>
+
+    <!-- OWN COLORS -->
+    <color name="valori_blue">#1d1054</color>
+    <color name="valori_blue_dark">#0f082d</color>
+    <color name="valori_gray">#595959</color>
+    <color name="snowGray">#f2f2f2</color>
+    <color name="lightGray">#e0e0e0</color>
+</resources>

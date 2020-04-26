@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ApiService</string>
+    <string name="api_generic_error">Something went wrong</string>
+</resources>
