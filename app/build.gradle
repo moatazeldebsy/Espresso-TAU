@@ -51,12 +51,4 @@ dependencies {
 
     androidTestImplementation 'info.cukes:cucumber-android:1.2.5'
     androidTestImplementation 'info.cukes:cucumber-picocontainer:1.2.5'
-
-
-    // Applitools dependencies
-    androidTestImplementation 'com.applitools:eyes-android-espresso:4.+@aar'
-    androidTestImplementation 'com.applitools:eyes-android-common:4.+'
-    androidTestImplementation 'com.applitools:eyes-android-core:4.+'
-    androidTestImplementation 'com.applitools:eyes-android-components:4.+@aar'
-    androidTestImplementation 'com.applitools:eyes-android-components-support:4.+@aar'
 }
