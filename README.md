@@ -1,3 +1,7 @@
+# Espresso-TAU (Test Automation University) Course 
+
+This repo contains the course material for the Test Automation University Course `Introduction to Android Automation with Espresso` 
+
 # RecyclerView sample for Espresso
 
 Espresso has a special entry point to interact with AdapterViews, `onData()`, however, RecyclerViews work differently than AdapterViews.
