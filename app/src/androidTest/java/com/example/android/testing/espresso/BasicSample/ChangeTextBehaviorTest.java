@@ -19,20 +19,18 @@ import static androidx.test.espresso.matcher.ViewMatchers.withText;
 @RunWith(AndroidJUnit4.class)
 public class ChangeTextBehaviorTest {
 
-    private static final String messageText = "Espresso";
-
     @Rule public ActivityTestRule<MainActivity> activityTestRule
             = new ActivityTestRule<>(MainActivity.class);
 
     @Test
     public void changeText_sameActivity() {
         onView(withId(R.id.editTextUserInput))
-                .perform(typeText(messageText), closeSoftKeyboard());
+                .perform(typeText("Hello TAU"), closeSoftKeyboard());
 
         onView(withId(R.id.changeTextBt))
             .perform(click());
 
         onView(withId(R.id.textToBeChanged))
-            .check(matches(withText(messageText)));
+            .check(matches(withText("Hello TAU")));
     }
 }
