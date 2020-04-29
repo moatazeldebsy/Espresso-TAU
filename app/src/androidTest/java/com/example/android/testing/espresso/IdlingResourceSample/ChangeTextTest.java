@@ -19,38 +19,37 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-
 @RunWith(AndroidJUnit4.class)
 public class ChangeTextTest {
-
-    private static final String messageText = "Hello TAU";
-    private IdlingResource mIdlingResource;
 
     @Rule public ActivityTestRule<MainActivity> activityTestRule
         = new ActivityTestRule<>(MainActivity.class);
 
+    private IdlingResource myIdling ;
+
     @Before
-    public void registerIdlingResource() {
-        mIdlingResource = activityTestRule.getActivity().getIdlingResource();
-        IdlingRegistry.getInstance().register(mIdlingResource);
+    public void registerIdlingResources()
+    {
+        myIdling = activityTestRule.getActivity().getIdlingResource();
+        IdlingRegistry.getInstance().register(myIdling);
     }
 
     @After
-    public void unregisterIdlingResource() {
-        if (mIdlingResource != null) {
-            IdlingRegistry.getInstance().unregister(mIdlingResource);
+    public void unRegisterIdlingResources()
+    {
+        if (myIdling != null){
+            IdlingRegistry.getInstance().unregister(myIdling);
         }
     }
 
     @Test
     public void changeText_sameActivity() {
         onView(withId(R.id.editTextUserInput))
-                .perform(typeText(messageText), closeSoftKeyboard());
-
+            .perform(typeText("Hello TAU"));
+        closeSoftKeyboard();
         onView(withId(R.id.changeTextBt))
             .perform(click());
-
         onView(withId(R.id.textToBeChanged))
-            .check(matches(withText(messageText)));
+            .check(matches(withText("Hello TAU")));
     }
 }
