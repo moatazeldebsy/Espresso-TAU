@@ -97,18 +97,6 @@ https://developer.android.com/training/testing/junit-runner#using-android-test-o
 - Page Object Pattern
 https://martinfowler.com/bliki/PageObject.html
 
-- Barista
-https://github.com/AdevintaSpain/Barista
-
-- Test Butler
-https://github.com/linkedin/test-butler
-
-- Spoon
-https://github.com/square/spoon
-
-- Screenshot tests for Android
-https://github.com/facebook/screenshot-tests-for-android
-
 - Cucumber Andorid
 https://github.com/cucumber/cucumber-android
 
