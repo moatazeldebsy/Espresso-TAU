@@ -24,12 +24,19 @@ public class ChangeTextBehaviorTest {
 
     @Test
     public void changeText_sameActivity() {
-        onView(withId(R.id.editTextUserInput))
-                .perform(typeText("Hello TAU"), closeSoftKeyboard());
+       // editTextUserInput
+        // changeTextBt
+        // textToBeChanged
 
+        // Locate the element
+        // perform action on this element
+        // assert/verify the element state
+
+        onView(withId(R.id.editTextUserInput))
+            .perform(typeText("Hello TAU"));
+        closeSoftKeyboard();
         onView(withId(R.id.changeTextBt))
             .perform(click());
-
         onView(withId(R.id.textToBeChanged))
             .check(matches(withText("Hello TAU")));
     }
