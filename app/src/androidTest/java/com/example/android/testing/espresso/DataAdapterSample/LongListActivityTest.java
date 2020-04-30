@@ -24,7 +24,6 @@ import static org.hamcrest.Matchers.hasEntry;
 import static org.hamcrest.Matchers.is;
 
 @RunWith(AndroidJUnit4.class)
-@LargeTest
 public class LongListActivityTest {
 
     private static final String itemText = "item: 30";
@@ -34,7 +33,6 @@ public class LongListActivityTest {
     @Rule
     public ActivityScenarioRule<LongListActivity> rule =
         new ActivityScenarioRule<>(LongListActivity.class);
-
 
     @Test
     public void lastItemNotDisplayed() {
@@ -56,7 +54,7 @@ public class LongListActivityTest {
             .perform(click());
 
         onView(ViewMatchers.withId(R.id.selection_row_value))
-                .check(matches(withText(selectedItemText)));
+            .check(matches(withText(selectedItemText)));
     }
 
     @Test
