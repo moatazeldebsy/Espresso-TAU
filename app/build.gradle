@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 28
-    buildToolsVersion rootProject.buildToolsVersion
+    buildToolsVersion "28.0.3"
     defaultConfig {
         applicationId "com.example.android.testing.espresso.RecyclerViewSample"
         minSdkVersion 14
@@ -19,15 +19,15 @@ android {
 
 dependencies {
     // App dependencies
-    implementation 'androidx.annotation:annotation:' + rootProject.androidxLibVersion;
-    implementation 'androidx.recyclerview:recyclerview:' + rootProject.androidxLibVersion;
+    implementation 'androidx.annotation:annotation:1.1.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
 
-    // Testing-only dependencies
-    androidTestImplementation 'androidx.test:core:' + rootProject.coreVersion;
-    androidTestImplementation 'androidx.test.ext:junit:' + rootProject.extJUnitVersion;
-    androidTestImplementation 'androidx.test:runner:' + rootProject.runnerVersion;
-    androidTestImplementation 'androidx.test.espresso:espresso-core:' + rootProject.espressoVersion;
-    androidTestImplementation 'androidx.test.espresso:espresso-contrib:' + rootProject.espressoVersion;
+    // Espresso dependencies
+    androidTestImplementation 'androidx.test:core:1.3.0-beta01'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2-beta01'
+    androidTestImplementation 'androidx.test:runner:1.3.0-beta01'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0-beta01'
     androidTestImplementation 'com.android.support.test:rules:1.0.2'
 
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.3.0-beta01'
 }
