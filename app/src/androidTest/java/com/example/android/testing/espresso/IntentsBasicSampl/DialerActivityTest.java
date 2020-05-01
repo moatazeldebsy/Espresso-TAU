@@ -1,4 +1,4 @@
-package com.example.android.testing.espresso.IntentsBasicSample;
+package com.example.android.testing.espresso.IntentsBasicSampl;
 
 import static android.app.Instrumentation.ActivityResult;
 import static androidx.test.espresso.Espresso.onView;
@@ -18,6 +18,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 
+import com.example.android.testing.espresso.IntentsBasicSample.DialerActivity;
+import com.example.android.testing.espresso.IntentsBasicSample.R;
+
 import androidx.test.espresso.intent.rule.IntentsTestRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
@@ -34,8 +37,8 @@ public class DialerActivityTest {
     private static final Uri IntentPhoneNumber = Uri.parse("tel:" + phoneNumber);
 
     @Rule
-    public IntentsTestRule<DialerActivity> mActivityRule = new IntentsTestRule<>(
-            DialerActivity.class);
+        public IntentsTestRule<DialerActivity> mActivityRule = new IntentsTestRule<>(
+        DialerActivity.class);
 
     @Before
     public void stubAllExternalIntents() {
@@ -46,11 +49,11 @@ public class DialerActivityTest {
     @Test
     public void typeNumber_ValidInput_InitiatesCall() {
         onView(withId(R.id.edit_text_caller_number))
-                .perform(typeText(phoneNumber), closeSoftKeyboard());
+            .perform(typeText(phoneNumber), closeSoftKeyboard());
         onView(withId(R.id.button_call_number)).perform(click());
 
         intended(allOf(
-                hasAction(Intent.ACTION_CALL),
-                hasData(IntentPhoneNumber)));
+            hasAction(Intent.ACTION_CALL),
+            hasData(IntentPhoneNumber)));
     }
 }
