@@ -27,36 +27,33 @@ public class LoginSteps {
         ActivityFinisher.finishOpenActivities();
     }
 
-    @Given("^I start the application$")
-    public void i_start_app() {
-
+    @Given("I start the application")
+    public void iStartTheApplication() {
         mActivityRule.launchActivity(new Intent());
     }
 
-    @When("^I enter valid email (\\S+)$")
-    public void i_enter_valid_email(String email ) {
-
+    @When("I enter valid email (\\S+)$")
+    public void iEnterValidEmailEmail(String email) {
         loginObject.enterEmail(email);
     }
 
-    @And("^I enter valid password (\\S+)$")
-    public void i_enter_valid_password(String password) {
-
+    @And("I enter valid password (\\S+)$")
+    public void iEnterValidPasswordPassword(String password) {
         loginObject.enterPassword(password);
     }
 
-    @And("^I close the keyboard$")
+    @And("I close the keyboard")
     public void iCloseTheKeyboard() {
-        loginObject.closeKeyboard();
-    }
-
-    @And("^I click sign in button$")
-    public void i_click_sign_in_button() {
         loginObject.clickSignInButton();
     }
 
-    @Then("^I expect to see successful login message$")
-    public void i_expect_to_see_successful_login_message() {
+    @And("I click sign in button")
+    public void iClickSignInButton() {
+        loginObject.clickSignInButton();
+    }
+
+    @Then("I expect to see successful login message")
+    public void iExpectToSeeSuccessfulLoginMessage() {
         loginObject.isSuccessfulLogin();
     }
 }
