@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
 import androidx.test.espresso.matcher.ViewMatchers;
 import androidx.test.ext.junit.rules.ActivityScenarioRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import androidx.test.filters.LargeTest;
 
 import static androidx.test.espresso.Espresso.onData;
 import static androidx.test.espresso.Espresso.onView;
@@ -36,18 +35,19 @@ public class LongListActivityTest {
 
     @Test
     public void lastItemNotDisplayed() {
-        onView(withText(lastItemID)).check(doesNotExist());
+        onView(withText(lastItemID))
+            .check(doesNotExist());
     }
 
     @Test
-    public void scrollTest() {
+    public void scrollToLastItemTest() {
         onData
             (hasEntry(equalTo(LongListActivity.ROW_TEXT), is(lastItemID)))
             .check(matches(isCompletelyDisplayed()));
     }
 
     @Test
-    public void rowClickTest() {
+    public void ClickOnRowTest() {
         onData
             (hasEntry(equalTo(LongListActivity.ROW_TEXT), is(itemText)))
             .onChildView(withId(R.id.rowContentTextView))
@@ -58,7 +58,7 @@ public class LongListActivityTest {
     }
 
     @Test
-    public void toggleClickTest() {
+    public void ClickToggleButtonTest() {
         onData
             (hasEntry(equalTo(LongListActivity.ROW_TEXT), is(itemText)))
             .onChildView(withId(R.id.rowToggleButton))
