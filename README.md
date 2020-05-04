@@ -1,4 +1,13 @@
-# Basic sample for Espresso Intents
+# Espresso-TAU (Test Automation University) Course 
 
-Espresso Intents is a great way to do hermetic inter app testing. It works essentially like mockito and allows for Intent
-verification and stubbing.
+### Chapter4 - Interacting with Elements - Intents
+
+
+
+### Resources
+- Intents
+https://developer.android.com/training/testing/espresso/intents
+
+
+### References Project
+- https://github.com/android/testing-samples
