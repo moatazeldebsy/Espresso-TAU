@@ -1,6 +1,7 @@
 # Espresso-TAU (Test Automation University) Course 
 
 ## Chapter10 - Continuous Integration with GitHub Actions
+![Android CI](https://github.com/moatazeldebsy/Espresso-TAU/workflows/Android%20CI/badge.svg?branch=chapter-10&event=check_run)
 
 
 ### Resources
