@@ -30,13 +30,6 @@ The course is divided into the 10 different chapters and each chapter has an ass
 
 You need to checkout the branch depending on the chapter you are on.
 
-## Resources
-- Test apps on Android
-https://developer.android.com/training/testing/ui-testing/espresso-testing
-- AndroidX Overview
-https://developer.android.com/jetpack/androidx
-- Android Jetpack
-https://developer.android.com/jetpack
 
 - Android Studio
 https://developer.android.com/studio#downloads
