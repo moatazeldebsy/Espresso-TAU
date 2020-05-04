@@ -1,15 +1,16 @@
 # Espresso-TAU (Test Automation University) Course 
 
-This repo contains the course material for the Test Automation University Course `Introduction to Android Automation with Espresso` 
+## Chapter10 - Continuous Integration with GitHub Actions
 
-## RUN BDD UI TESTS
 
-### To run all End-to-End tests written with Cucumber and BDD execute : 
+### Resources
+- Adding an existing project to GitHub using the command line
+https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
 
-./gradlew connectedCheck -Pcucumber -Ptags="@e2e" 
+- GitHub Actions Documentation
+https://help.github.com/en/actions
+https://help.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow
 
-also run ./gradlew connectedCheck -Pcucumber -Ptags="@smoke" to run all smoke BDD tests
+- Android Emulator
+https://github.com/marketplace/actions/android-emulator-runner
 
-### To run individual feature test execute : 
-
-./gradlew connectedCheck -Pcucumber -Pscenario="Successful login"
