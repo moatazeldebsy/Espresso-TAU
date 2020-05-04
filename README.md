@@ -1,7 +1,7 @@
 
 # Espresso-TAU (Test Automation University) Course 
 
-This repo contains the course material for the Test Automation University Course `Introduction to Android Automation with Espresso` 
+## Chapter8 - Android BDD with Cucumber and Espresso
 
 ## RUN BDD UI TESTS
 
@@ -14,3 +14,20 @@ also run ./gradlew connectedCheck -Pcucumber -Ptags="@smoke" to run all smoke BD
 ### To run individual feature test execute : 
 
 ./gradlew connectedCheck -Pcucumber -Pscenario="Successful login"
+
+### Resources
+- Cucumber Android
+https://github.com/cucumber/cucumber-android
+
+- Gradle CLI
+https://docs.gradle.org/current/userguide/command_line_interface.html
+
+- Gradle Wrapper
+https://docs.gradle.org/current/userguide/gradle_wrapper.html
+
+
+### References Projects
+- https://github.com/stoichoandreev/bdd
+
+
+
