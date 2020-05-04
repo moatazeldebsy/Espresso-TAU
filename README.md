@@ -1,6 +1,13 @@
-# Data Adapter sample for Espresso
+# Espresso-TAU (Test Automation University) Course 
 
-An AdapterView (like ListView, GridView, etc.) is a view bound to an Adapter that determines the
-view's children. In Espresso, you can match these children views using the onData() method instead of
-onView() as you would do normally. Instead of matching views, onData() matches the data that is
-bound to each view item.
+### Chapter4 - Interacting with Elements - AdapterView
+
+
+
+### Resources
+- Lists
+https://developer.android.com/training/testing/espresso/lists
+
+
+### References Project
+- https://github.com/android/testing-samples
