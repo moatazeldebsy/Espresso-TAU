@@ -18,4 +18,4 @@ https://martinfowler.com/bliki/PageObject.html
 
 
 ### References Projects
-- https://github.com/android/testing-samples
+- https://github.com/rutgurk/mailordercoffee-workshop
