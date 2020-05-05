@@ -8,6 +8,8 @@ This repo contains the course material for the Test Automation University Course
 In order to follow this course, you will need 
  * macOS High Sierra or Mojave | Windows 10 
  * Android Studio 3.6+
+ * Android SDK v28
+ * Android Build Tools v28.03
  * Android Emulator
  * Github Account
  * Applitools API Key
