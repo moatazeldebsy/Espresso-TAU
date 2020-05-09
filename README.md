@@ -3,7 +3,7 @@
 This repo contains the course material for the Test Automation University Course `Introduction to Android Test Automation with Espresso` 
 
 
-# Pre-requisite 
+# Pre-requisites
 
 In order to follow this course, you will need 
  * macOS High Sierra or Mojave | Windows 10 
