@@ -2,6 +2,9 @@
 
 This repo contains the course material for the Test Automation University Course `Introduction to Android Test Automation with Espresso` 
 
+<p align="center">
+<img src="https://github.com/moatazeldebsy/Espresso-TAU/blob/master/espresso.png" width="80%">
+</p>
 
 # Pre-requisites
 
