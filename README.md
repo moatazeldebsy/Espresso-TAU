@@ -10,13 +10,13 @@ This repo contains the course material for the Test Automation University Course
 
 In order to follow this course, you will need 
  * macOS High Sierra or Mojave | Windows 10 
- * Android Studio 3.6+
+ * [Android Studio 3.6+](https://developer.android.com/studio/?gclid=CjwKCAjwsO_4BRBBEiwAyagRTZgIO0cKcSVfsOunOsIcJDPZyPQg0EfHWszDvUqYsmiJ7s2F2iic7hoCkrsQAvD_BwE&gclsrc=aw.ds)
  * Android SDK v28
  * Android Build Tools v28.03
  * Android Emulator
- * Github Account
- * Applitools API Key
- * Firebase Test Lab Account
+ * [Github Free Account](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
+ * [Applitools API Key](https://auth.applitools.com/users/register)
+ * [Firebase Test Lab Account](https://firebase.google.com/)
  
  
 # How to use this repository 
