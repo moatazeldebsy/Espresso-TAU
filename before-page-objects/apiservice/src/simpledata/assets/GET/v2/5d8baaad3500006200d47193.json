@@ -1,0 +1,351 @@
+[
+  {
+    "ingredients": [
+      {
+        "ingredientName": "1 shot of espresso",
+        "volumeInML": 30
+      }
+    ],
+    "name": "Espresso",
+    "url": "",
+    "volume": 30
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "2 shots of espresso",
+        "volumeInML": 60
+      }
+    ],
+    "name": "Espresso Doppio",
+    "url": "",
+    "volume": 60
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "1 concentrated shot of espresso",
+        "volumeInML": 22
+      }
+    ],
+    "name": "Ristretto",
+    "url": "",
+    "volume": 22
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "1 shot of less concentrated espresso",
+        "volumeInML": 90
+      }
+    ],
+    "name": "Lungo",
+    "url": "",
+    "volume": 90
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "2 shots of espresso",
+        "volumeInML": 60
+      },
+      {
+        "ingredientName": "Dot of foamed milk",
+        "volumeInML": 5
+      }
+    ],
+    "name": "Café Macchiato",
+    "url": "",
+    "volume": 60
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "2 shots of espresso",
+        "volumeInML": 60
+      },
+      {
+        "ingredientName": "Heavy cream",
+        "volumeInML": 30
+      }
+    ],
+    "name": "Café Creme",
+    "url": "",
+    "volume": 90
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "2 shots of espresso",
+        "volumeInML": 60
+      },
+      {
+        "ingredientName": "Hot milk",
+        "volumeInML": 30
+      }
+    ],
+    "name": "Café Noisette",
+    "url": "",
+    "volume": 90
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "2 shots of espresso",
+        "volumeInML": 60
+      },
+      {
+        "ingredientName": "Foamed milk",
+        "volumeInML": 30
+      }
+    ],
+    "name": "Café Cortado",
+    "url": "",
+    "volume": 90
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "2 shots of espresso",
+        "volumeInML": 60
+      },
+      {
+        "ingredientName": "Steamed milk",
+        "volumeInML": 30
+      },
+      {
+        "ingredientName": "Foamed milk",
+        "volumeInML": 60
+      }
+    ],
+    "name": "Cappuccino",
+    "url": "",
+    "volume": 180
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "2 shots of espresso",
+        "volumeInML": 60
+      },
+      {
+        "ingredientName": "Milk foam",
+        "volumeInML": 120
+      }
+    ],
+    "name": "Dry Cappuccino",
+    "url": "",
+    "volume": 180
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "2 shots of espresso",
+        "volumeInML": 60
+      },
+      {
+        "ingredientName": "Hot water",
+        "volumeInML": 90
+      }
+    ],
+    "name": "Café Americano",
+    "url": "",
+    "volume": 150
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "2 shots of espresso",
+        "volumeInML": 60
+      },
+      {
+        "ingredientName": "Ice cubes",
+        "volumeInML": 60
+      }
+    ],
+    "name": "Café con Hielo",
+    "url": "",
+    "volume": 60
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "2 shots of espresso",
+        "volumeInML": 60
+      },
+      {
+        "ingredientName": "Half & half",
+        "volumeInML": 90
+      }
+    ],
+    "name": "Breve",
+    "url": "",
+    "volume": 150
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "2 shots of espresso",
+        "volumeInML": 60
+      },
+      {
+        "ingredientName": "Chocolate",
+        "volumeInML": 60
+      },
+      {
+        "ingredientName": "Half & half",
+        "volumeInML": 60
+      }
+    ],
+    "name": "Mocha Breve",
+    "url": "",
+    "volume": 150
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "2 shots of espresso",
+        "volumeInML": 60
+      },
+      {
+        "ingredientName": "Chocolate",
+        "volumeInML": 60
+      },
+      {
+        "ingredientName": "Steamed milk",
+        "volumeInML": 30
+      }
+    ],
+    "name": "Mocha",
+    "url": "",
+    "volume": 150
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "2 shots of espresso",
+        "volumeInML": 60
+      },
+      {
+        "ingredientName": "Vanilla ice cream",
+        "volumeInML": 90
+      }
+    ],
+    "name": "Café  Affogato",
+    "url": "",
+    "volume": 150
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "2 shots of espresso",
+        "volumeInML": 60
+      },
+      {
+        "ingredientName": "Hot milk",
+        "volumeInML": 60
+      },
+      {
+        "ingredientName": "Whipped cream",
+        "volumeInML": 60
+      }
+    ],
+    "name": "Viennois",
+    "url": "",
+    "volume": 180
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "2 shots of espresso",
+        "volumeInML": 60
+      },
+      {
+        "ingredientName": "Whipped cream",
+        "volumeInML": 90
+      }
+    ],
+    "name": "Con Panna",
+    "url": "",
+    "volume": 150
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "2 shots of espresso",
+        "volumeInML": 60
+      },
+      {
+        "ingredientName": "Steamed milk",
+        "volumeInML": 120
+      }
+    ],
+    "name": "Flat White",
+    "url": "",
+    "volume": 180
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "2 shots of espresso",
+        "volumeInML": 60
+      },
+      {
+        "ingredientName": "Brewed coffee",
+        "volumeInML": 120
+      }
+    ],
+    "name": "Black Eye",
+    "url": "",
+    "volume": 180
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "2 shots of espresso",
+        "volumeInML": 60
+      },
+      {
+        "ingredientName": "Steamed milk",
+        "volumeInML": 120
+      },
+      {
+        "ingredientName": "Milk foam",
+        "volumeInML": 2
+      }
+    ],
+    "name": "Café  Latte",
+    "url": "",
+    "volume": 362
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "French pressed coffee",
+        "volumeInML": 150
+      },
+      {
+        "ingredientName": "Steamed milk",
+        "volumeInML": 150
+      }
+    ],
+    "name": "Café  au Lait",
+    "url": "",
+    "volume": 300
+  },
+  {
+    "ingredients": [
+      {
+        "ingredientName": "Brewed coffee",
+        "volumeInML": 180
+      },
+      {
+        "ingredientName": "Scalded milk",
+        "volumeInML": 180
+      }
+    ],
+    "name": "Café con Leche",
+    "url": "",
+    "volume": 360
+  }
+]

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <TextView
+            android:padding="16dp"
+            android:id="@+id/title_view"
+            style="@style/title"
+            android:background="@color/primaryDarkColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/home_header"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:elevation="2dp" />
+
+        <FrameLayout
+            android:id="@+id/header_fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/title_view"
+            app:layout_constraintBottom_toTopOf="@id/order_fragment_container"
+            app:layout_constraintVertical_bias="0.1"
+            android:elevation="2dp" />
+
+        <FrameLayout
+            android:id="@+id/order_fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toBottomOf="@id/header_fragment_container"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

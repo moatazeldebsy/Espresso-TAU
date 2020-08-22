@@ -1,0 +1,12 @@
+{
+  "milkTypes": {
+    "types": [
+      "No Milk",
+      "Soy",
+      "Low fat",
+      "Half & half",
+      "Cream",
+      "Custom %"
+    ]
+  }
+}

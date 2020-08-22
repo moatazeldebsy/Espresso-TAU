@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Valori Mail Order Coffeeshop</string>
+
+    <!-- onboarding -->
+    <string name="onboarding_create_custom_order">"Create a custom order..."</string>
+    <string name="onboarding_browse_menu">or browse our menu...</string>
+    <string name="onboarding_order_by_mail">...and order by mail</string>
+    <string name="go_on">Go on</string>
+
+    <!-- order strings -->
+    <string name="home_header">Valori Mail Order Coffeeshop</string>
+    <string name="app_info_body_text">Check out our menu for inspiration and place your custom order below</string>
+
+    <!-- custom order string -->
+    <string name="custom_order_title">Customize your order</string>
+    <string name="name_edit_text_hint">Enter your name</string>
+    <string name="email_address_edit_text_hint">Enter email address</string>
+    <string name="custom_order_name_edit_text_hint">Give your custom order a name</string>
+    <string name="review_order_button">Review order</string>
+    <string name="review_order_button_content_description">Go to the review screen</string>
+    <string name="espresso_shot_counter_text">Espresso shots</string>
+    <string name="use_menu_button">Menu</string>
+    <string name="create_custom_order_button">Custom Order</string>
+    <string name="milk_fat_percentage">Milk fat %</string>
+
+
+    <!-- beverage detail -->
+    <string name="submit_order_button">Submit order</string>
+
+    <!-- custom order -->
+    <string name="default_order_title">Your custom drink</string>
+
+    <!-- order overview -->
+    <string name="email_invalid_error">E-mail address is invalid</string>
+    <string name="customer_name_error">Enter your name please</string>
+    <string name="order_name_error">Please enter a name for your order</string>
+
+    <!-- prestashop strings -->
+    <string name="prestashop_url">http://automationpractice.com/</string>
+    <string name="navigate_back_error">"Can't navigate back"</string>
+    <string name="navigate_forward_error">"Can't navigate forward"</string>
+    <string name="back_button_text">Back</string>
+    <string name="forward_button_text">Forward</string>
+    <string name="page_load_connectivity_error">Page could not be loaded. Please check your network settings</string>
+</resources>

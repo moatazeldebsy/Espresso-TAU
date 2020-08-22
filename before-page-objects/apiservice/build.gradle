@@ -1,0 +1,80 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 29
+
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        // The following argument makes the Android Test Orchestrator run its
+        // "pm clear" command after each test invocation. This command ensures
+        // that the app's state is completely cleared between tests.
+        testInstrumentationRunnerArguments clearPackageData: 'true'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    testOptions {
+        execution 'ANDROIDX_TEST_ORCHESTRATOR'
+    }
+    flavorDimensions "providerVersion", "dataType"
+
+    productFlavors {
+        simpledata {
+            dimension "providerVersion"
+            versionNameSuffix "-simpledata"
+        }
+        retrofitdata {
+            dimension "providerVersion"
+            versionNameSuffix "-retrofitdata"
+        }
+        local {
+            dimension "dataType"
+            versionNameSuffix "-local"
+        }
+        remote {
+            dimension "dataType"
+            versionNameSuffix "-remote"
+        }
+    }
+
+    variantFilter { variant ->
+        def names = variant.flavors*.name
+        def types = variant.buildType.name
+        // To check for a certain build type, use variant.buildType.name == "<buildType>"
+        if (names.contains("retrofitdata") && names.contains("local") || types.contains("release")) {
+            // Gradle ignores any variants that satisfy the conditions above.
+            setIgnore(true)
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.3.1'
+    implementation "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation 'com.squareup.retrofit2:converter-moshi:2.6.2'
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.1")
+    androidTestUtil 'androidx.test:orchestrator:1.2.0'
+}
+repositories {
+    mavenCentral()
+}
