@@ -1,7 +1,6 @@
 package pageobjects;
 
 import androidx.test.espresso.contrib.RecyclerViewActions;
-import androidx.test.espresso.matcher.ViewMatchers;
 import nl.testchamber.mailordercoffeeshop.R;
 
 import static androidx.test.espresso.Espresso.onView;

@@ -22,7 +22,6 @@ public class SendOrderToEmailTest extends TestBase {
     private String orderName = "TAU Order Name";
     private String mailSubject = "Order: Moataz - TAU Order Name";
 
-    // After Page Objects
     @Test
     public void sendAnIntentContainingTheRightOrderDetails() {
         onboardObject.closeOnBoardingScreen();

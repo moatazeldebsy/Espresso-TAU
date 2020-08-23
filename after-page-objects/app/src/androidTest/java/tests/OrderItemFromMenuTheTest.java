@@ -8,6 +8,7 @@ import org.junit.runner.RunWith;
 
 import pageobjects.MenuScreen;
 import pageobjects.OnboardingScreen;
+import utils.E2ETest;
 
 @RunWith(AndroidJUnit4ClassRunner.class)
 @MediumTest
@@ -19,6 +20,7 @@ public class OrderItemFromMenuTheTest extends TestBase {
     private String itemTitle = "Cappuccino";
 
     @Test
+    @E2ETest
     public void selectAnItemInTheMenuWithPageObject() {
         onboardObject.closeOnBoardingScreen();
         menuObject.clickOnMenuButton();

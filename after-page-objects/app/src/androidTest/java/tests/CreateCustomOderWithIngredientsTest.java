@@ -9,6 +9,7 @@ import org.junit.runner.RunWith;
 import pageobjects.CustomOrderScreen;
 import pageobjects.OnboardingScreen;
 import pageobjects.ReviewOrderScreen;
+import utils.SmokeTest;
 
 @RunWith(AndroidJUnit4ClassRunner.class)
 @SmallTest
@@ -18,8 +19,8 @@ public class CreateCustomOderWithIngredientsTest extends TestBase {
     private CustomOrderScreen customizeObject = new CustomOrderScreen();
     private ReviewOrderScreen reviewObject = new ReviewOrderScreen();
 
-    // After Page Object
     @Test
+    @SmokeTest
     public void orderOverViewDisplayIngredients() {
         onboardObject.closeOnBoardingScreen();
         customizeObject.customizeYourOrder(3);
