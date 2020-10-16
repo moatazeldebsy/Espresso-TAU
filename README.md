@@ -1,6 +1,6 @@
 # Espresso-TAU (Test Automation University) Course :rocket:
 
-This repo contains the course material for the Test Automation University Course `Introduction to Android Test Automation with Espresso` 
+This repo contains the course material for the Test Automation University Course [`Introduction to Android Test Automation with Espresso`](https://testautomationu.applitools.com/espresso-mobile-testing-tutorial/)
 
 <p align="center">
 <img src="https://github.com/moatazeldebsy/Espresso-TAU/blob/master/espresso.png" width="80%">
