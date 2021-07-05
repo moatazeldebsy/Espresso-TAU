@@ -1,6 +1,8 @@
 # Espresso-TAU (Test Automation University) Course 
 
+
 ### Chapter3-Writing the First Test
+
 
 ### Resources
 - Espresso Test Recorder
