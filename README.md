@@ -15,6 +15,5 @@ https://developer.android.com/studio/debug/layout-inspector
 - Espresso Basic
 https://developer.android.com/training/testing/espresso/basics
 
-
 ### References Project
 - https://github.com/android/testing-samples
