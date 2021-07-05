@@ -1,3 +1,25 @@
+# Espresso-TAU (Test Automation University) Course 
+
+
+### Chapter3-Writing the First Test
+
+
+### Resources
+- Espresso Test Recorder
+https://developer.android.com/studio/test/espresso-test-recorder
+
+- UIAutomatorViewer
+https://developer.android.com/training/testing/ui-automator#ui-automator-viewer
+
+- Layout Inspector
+https://developer.android.com/studio/debug/layout-inspector
+
+- Espresso Basic
+https://developer.android.com/training/testing/espresso/basics
+
+### References Project
+- https://github.com/android/testing-samples
+=======
 # Espresso-TAU (Test Automation University) Course :rocket:
 
 This repo contains the course material for the Test Automation University Course [Introduction to Android Test Automation with Espresso](https://testautomationu.applitools.com/espresso-mobile-testing-tutorial/)
@@ -68,6 +90,3 @@ https://firebase.google.com/docs/test-lab/android/overview
  - https://github.com/stoichoandreev/bdd
 
  - https://github.com/rutgurk/mailordercoffee-workshop
- 
- 
- 
